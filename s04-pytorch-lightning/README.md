@@ -100,10 +100,9 @@ This will create and start the containers for all the services. If the images ha
 
 <h4>Docker Images - from GitPod</h4>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 10px;">
-  <img src="./execution_results/docker_containers.JPG" alt="Docker Containers List" width="300"/>
-  <img src="./execution_results/docker_image.JPG" alt="Docker Images List" width="300"/>
-</div>
+  <img src="./execution_results/docker_containers.JPG" alt="Docker Containers List" width="1000"/>
+  <br>
+  <img src="./execution_results/docker_image.JPG" alt="Docker Images List" width="600"/>
 
 ### Start Train Service
 
@@ -135,12 +134,14 @@ tensorboard --logdir logs/dogbreed_classification/
 
 <h4>Train Logs - from GitPod</h4>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 10px;">
-  <img src="./execution_results/train_log1.JPG" alt="Train Logs Part 1" width="300"/>
-  <img src="./execution_results/train_log2.JPG" alt="Train Logs Part 2" width="300"/>
-  <img src="./execution_results/train_log3.JPG" alt="Train Logs Part 3" width="300"/>
-  <img src="./execution_results/train_log4.JPG" alt="Train Logs Part 4" width="300"/>
-</div>
+  <img src="./execution_results/train_log1.JPG" alt="Train Logs Part 1" width="1000"/>
+  <br>
+  <img src="./execution_results/train_log2.JPG" alt="Train Logs Part 2" width="500"/>
+  <br>
+  <img src="./execution_results/train_log3.JPG" alt="Train Logs Part 3" width="1000"/>
+  <br>
+  <img src="./execution_results/train_log4.JPG" alt="Train Logs Part 4" width="1000"/>
+
 
 
 ### Start Validation Service
@@ -159,10 +160,9 @@ If the `--checkpoint` argument is not provided, the latest checkpoint in the `lo
 
 <h4>Validation Logs - from GitPod</h4>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 10px;">
-  <img src="./execution_results/evaluate_log1.JPG" alt="Validation Logs Part 1" width="300"/>
-  <img src="./execution_results/evaluate_log2.JPG" alt="Validation Logs Part 2" width="300"/>
-</div>
+  <img src="./execution_results/evaluate_log1.JPG" alt="Validation Logs Part 1" width="1000"/>
+  <br>
+  <img src="./execution_results/evaluate_log2.JPG" alt="Validation Logs Part 2" width="800"/>
 
 ### Start Inference Service
 
@@ -184,12 +184,14 @@ The predicted images will be saved in the output/ directory, along with the pred
 
 <h4>Infer Logs - from GitPod</h4>
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 10px;">
-  <img src="./execution_results/infer_log1.JPG" alt="Inference Logs Part 1" width="300"/>
-  <img src="./execution_results/infer_log2.JPG" alt="Inference Logs Part 2" width="300"/>
-  <img src="./execution_results/infer_log3.JPG" alt="Inference Logs Part 3" width="300"/>
-  <img src="./execution_results/infer_log4.JPG" alt="Inference Logs Part 4" width="300"/>
-</div>
+  <img src="./execution_results/infer_log1.JPG" alt="Inference Logs Part 1" width="800"/>
+  <br>
+  <img src="./execution_results/infer_log2.JPG" alt="Inference Logs Part 2" width="800"/>
+  <br> 
+  <img src="./execution_results/infer_log3.JPG" alt="Inference Logs Part 3" width="800"/>
+  <br>
+  <img src="./execution_results/infer_log4.JPG" alt="Inference Logs Part 4" width="800"/>
+
 
 <h4>Predictions - from GitPod</h4>
 
