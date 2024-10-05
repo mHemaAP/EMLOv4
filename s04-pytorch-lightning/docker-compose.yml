@@ -1,0 +1,37 @@
+services:
+    train:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        command: python src/train.py
+        image: pytorch-docker-light/docker-lightning-1:latest
+        volumes:
+            - ./logs:/app//logs
+            - ./data:app/data
+  
+    evaluate:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        command: python src/eval.py
+        image: pytorch-docker-light/docker-lightning-1:latest
+        volumes:
+            - ./logs:/logs
+            - ./data:/data
+
+    infer:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        command: python src/infer.py
+        image: pytorch-docker-light/docker-lightning-1:latest
+        volumes:
+            - ./logs:/logs
+            - ./data:/data
+            - ./output:/output
+
+    # create volumes here
+volumes:
+    logs:
+    data:
+    output:
